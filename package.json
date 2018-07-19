@@ -1,0 +1,23 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "twitter\r https://apps.twitter.com/app/15661954/keys\r @daniel60192083\r consumer key(api key) \r     pnzgbjgpgpWEEH3zZEtmgybAD\r Consumer Secret (API Secret)         \r     ebi6KONjZtzmyMd25dRVZlVfbMnyb29xd1uUPGR684WOXektNP\r Owner\t\r     Daniel60192083\r Owner ID\t\r     1018625254325997570",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpruitt/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielpruitt/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/danielpruitt/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
