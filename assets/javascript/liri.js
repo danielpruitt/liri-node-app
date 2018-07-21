@@ -13,7 +13,7 @@ var client = new Twitter(keys.twitter);
 
 //functions
 function tweets() {
-    var params = { screen_name: 'Daniel60192083', count: 20 };
+    var params = { screen_name: 'Daniel60192083', count: 10 };
     client.get("statuses/user_timeline", params, function (error, tweets, response) {
         if (!error && response.statusCode === 200) {
             // console.log(response.statuses);

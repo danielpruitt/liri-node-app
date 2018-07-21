@@ -30,10 +30,10 @@ Resources used: node packages: spotify-web-api-node API: Spotify
 
 
 Response Images:
-(images/LiriOpen.JPG)
-(images/Twitter_Selected.JPG)
-(images/SpotifyTheSign.JPG)
-(images/SpotifyByeByeBye.JPG)
-(images/MovieMrNobody.JPG)
-(images/MovieBatmanBegins.JPG)
-(images/YouDidWhatItSays.JPG)
+!(images/LiriOpen.JPG)
+!(images/Twitter_Selected.JPG)
+!(images/SpotifyTheSign.JPG)
+!(images/SpotifyByeByeBye.JPG)
+!(images/MovieMrNobody.JPG)
+!(images/MovieBatmanBegins.JPG)
+!(images/YouDidWhatItSays.JPG)
