@@ -46,7 +46,7 @@ function songs() {
             console.log("Link: https://open.spotify.com/track/3oCJJksC12uFxkt3RQ7rbV");
         }
         else {
-            fs.appendFile("log.txt", " The song " + getSongs.song + " was added," ,function(err){
+            fs.appendFile("log.txt", " The song " + searched + " was added," ,function(err){
                 if (err) {
                     console.log(err);
                 }
@@ -56,6 +56,7 @@ function songs() {
             });
             spotify.search({ type: "track", query: "'" + searched + "'" }, function (error, data) {
                 console.log("================================");
+                console.log("Song: " + searched)
                 console.log("Artist: " + data.tracks.items[0].artists[0].name);
                 console.log("Album: " + data.tracks.items[0].album.name);
                 console.log("Link: " + data.tracks.items[0].external_urls.spotify);
