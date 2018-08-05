@@ -6,6 +6,9 @@ LIRI is a node application that utilizes user choices and input to return data f
 
 The Request and FS is used throughout the node application.
 
+Video Link to demonstrate LIRI usage.
+https://drive.google.com/file/d/1JM9PtiMWF-1zpIjQJS_Uzf0d8seiP93z/view
+
 ---My Tweets---
 Selecting My Tweets will return the users previous 20 tweets. Currently, the Twitter account is hardcoded to myself. 
 Simply by choosing the My Tweets option will return this data and no further action is needed from the user. 
